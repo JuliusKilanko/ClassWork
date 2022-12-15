@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navlink-content{
+    text-align: center;
+    padding: 1rem 1rem;
+    background: red;
+
+}
+.navlink-content ul li a{
+    color: white;
+}
+@media (max-width:640px){
+    body{
+        background: white;
+    }
+}

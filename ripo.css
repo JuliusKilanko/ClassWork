@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: red;
+    color: white;
+    margin-top: 200px;
+}
+.ripo-head-content h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ripo-head-content p{
+    text-align: center;
+    margin-bottom: 40px;
+    width: 500px;
+    color:white;
+    padding: 2rem 2rem;
+    margin-left: 400px;
+    box-shadow: inset 1px 1px 10px 1px rgb(80, 78, 78);
+    line-height: 25px;
+    cursor: default;
+    transition: all 1s ease-in-out;
+}
+.ripo-head-content p:hover{
+    box-shadow:0px 10px 30px rgb(80, 78, 78);
+    background: white;
+    color: red;
+
+}
+.ripo-head-content a{
+    text-align: center;
+    background: white;
+    border: solid 1px white;
+    color: red;
+    transition: all .8s ease-in-out;
+    padding: .6rem 1rem;
+    margin-left: 620px;
+}
+.ripo-head-content a:hover{
+    color: red;
+    box-shadow: 0 10px 30px red;
+    background: white;
+}
+@media (max-width:640px){
+    body{
+        margin-top: 400px;
+    }
+    .ripo-head-content h2{
+        margin-top: 30px;
+    }   
+    .ripo-head-content p{
+        position: relative;
+        right: 398px;
+        padding: .4rem .09rem;
+        
+    }
+    .ripo-head-content a{
+        margin-left: 140px;
+        padding: .4rem 3rem;
+    }
+}
