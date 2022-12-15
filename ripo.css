@@ -56,8 +56,9 @@ body{
     }   
     .ripo-head-content p{
         position: relative;
-        right: 398px;
-        padding: .4rem .09rem;
+        right: 400px;
+        font-size: 10px;
+        padding: .4rem .007rem;
         
     }
     .ripo-head-content a{
